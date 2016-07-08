@@ -9,7 +9,7 @@ install:
 # command to run tests
 script:
   - py.test -v
-  - coverage run *
+  - coverage run portfolio1.py
 # call Coveralls
 after_success:
   - coveralls
