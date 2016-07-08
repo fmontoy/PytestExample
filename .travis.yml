@@ -5,4 +5,4 @@ python:
   # maintainers to fix their pypy-dev package.
   - "pypy"
 # command to run tests
-script: py.test
+script: py.test -v
