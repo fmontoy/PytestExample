@@ -9,5 +9,5 @@ class Portfolio(object):
     def cost(self):
         amt = 0.0
         for name, shares, price in self.stocks:
-            amt += shares * price
+            amt += shares / price + 8
         return amt
