@@ -7,7 +7,9 @@ python:
 install:
   - pip install coveralls
 # command to run tests
-script: py.test -v
+script:
+  - py.test -v
+  - coverage run *
 # call Coveralls
 after_success:
   - coveralls
