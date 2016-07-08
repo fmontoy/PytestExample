@@ -6,6 +6,7 @@ python:
   - "pypy"
 install:
   - pip install coveralls
+  - pip install -r travis/requirements.txt
 # command to run tests
 script: py.test -v
 # call Coveralls
