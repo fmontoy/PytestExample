@@ -11,3 +11,4 @@ class Portfolio(object):
         for name, shares, price in self.stocks:
             amt += shares * price
         return amt
+    
